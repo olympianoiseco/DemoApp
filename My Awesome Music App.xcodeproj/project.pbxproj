@@ -13,6 +13,8 @@
 		AB0723C21FB281DD001E6735 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB0723C11FB281DD001E6735 /* Assets.xcassets */; };
 		AB0723C51FB281DE001E6735 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB0723C31FB281DE001E6735 /* LaunchScreen.storyboard */; };
 		AB0723C81FB281DE001E6735 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB0723C71FB281DE001E6735 /* main.m */; };
+		AB0723CF1FB28473001E6735 /* gs_instruments.dls in Resources */ = {isa = PBXBuildFile; fileRef = AB0723CE1FB28473001E6735 /* gs_instruments.dls */; };
+		AB0723D21FB28A5B001E6735 /* ONCTouchView.m in Sources */ = {isa = PBXBuildFile; fileRef = AB0723D11FB28A5B001E6735 /* ONCTouchView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		AB0723C41FB281DE001E6735 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB0723C61FB281DE001E6735 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		AB0723C71FB281DE001E6735 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AB0723CE1FB28473001E6735 /* gs_instruments.dls */ = {isa = PBXFileReference; lastKnownFileType = file; path = gs_instruments.dls; sourceTree = "<group>"; };
+		AB0723D01FB28A5B001E6735 /* ONCTouchView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ONCTouchView.h; sourceTree = "<group>"; };
+		AB0723D11FB28A5B001E6735 /* ONCTouchView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ONCTouchView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +67,9 @@
 				AB0723B91FB281DC001E6735 /* AppDelegate.m */,
 				AB0723BB1FB281DC001E6735 /* ViewController.h */,
 				AB0723BC1FB281DD001E6735 /* ViewController.m */,
+				AB0723D01FB28A5B001E6735 /* ONCTouchView.h */,
+				AB0723D11FB28A5B001E6735 /* ONCTouchView.m */,
+				AB0723CE1FB28473001E6735 /* gs_instruments.dls */,
 				AB0723BE1FB281DD001E6735 /* Main.storyboard */,
 				AB0723C11FB281DD001E6735 /* Assets.xcassets */,
 				AB0723C31FB281DE001E6735 /* LaunchScreen.storyboard */,
@@ -129,6 +137,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB0723CF1FB28473001E6735 /* gs_instruments.dls in Resources */,
 				AB0723C51FB281DE001E6735 /* LaunchScreen.storyboard in Resources */,
 				AB0723C21FB281DD001E6735 /* Assets.xcassets in Resources */,
 				AB0723C01FB281DD001E6735 /* Main.storyboard in Resources */,
@@ -145,6 +154,7 @@
 				AB0723BD1FB281DD001E6735 /* ViewController.m in Sources */,
 				AB0723C81FB281DE001E6735 /* main.m in Sources */,
 				AB0723BA1FB281DC001E6735 /* AppDelegate.m in Sources */,
+				AB0723D21FB28A5B001E6735 /* ONCTouchView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +291,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZG8BUAB3M7;
 				INFOPLIST_FILE = "My Awesome Music App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.olympianoiseco.My-Awesome-Music-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -295,6 +306,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = ZG8BUAB3M7;
 				INFOPLIST_FILE = "My Awesome Music App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.olympianoiseco.My-Awesome-Music-App";
 				PRODUCT_NAME = "$(TARGET_NAME)";
